@@ -1,0 +1,131 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+h1{
+    font-size: 3rem;
+    border-bottom: 5px solid burlywood;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+}
+
+/* HOVERBOX */
+#hoverBox {
+    width: 150px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: lightblue;
+    transition: 0.3s;
+}
+
+#magicBtn, #secretBtn{
+    width: 110px;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    color: darkolivegreen;
+    font-weight: 600;
+}
+
+/* TABS */
+.entire_tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px solid brown;
+    width: 50%;
+    padding: 20px;
+}
+
+.tab-content {
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 30px;
+    width: 50%;
+}
+
+.tab {
+    border: 3px solid brown;
+    width: 100px;
+    padding: 15px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: cadetblue;
+    margin: auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 100px;
+    padding: 15px 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        display: block;
+    }
+    .events{
+        width: 70%;
+    }
+
+    .entire_tab{
+        width: 70%;
+    }
+
+    button{
+        padding: 10%;
+    }
+
+    form {
+        width: 70%;
+    }
+}
